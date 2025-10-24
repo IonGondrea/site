@@ -2,35 +2,26 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Simple Market</title>
+  <title>Country Selection - Choose Your Region</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Simple Market</h1>
-    <p class="muted">Select items and checkout. The page reloads product/cart data automatically.</p>
+    <h1>Select Your Country</h1>
+    <p class="subtitle">Choose your region to continue</p>
   </header>
 
-  <main class="layout">
-    <section class="panel" id="products-panel">
-      <h2>Products</h2>
-      <div id="products" class="list">
-        <!-- products rendered here by app.js -->
-      </div>
-    </section>
-
-    <aside class="panel" id="cart-panel">
-      <h2>Cart</h2>
-      <div id="cart" class="list">Loading cart...</div>
-      <div class="cart-actions">
-        <button id="checkoutBtn" class="primary">Checkout</button>
-        <button id="refreshBtn" class="secondary">Refresh</button>
-      </div>
-    </aside>
+  <main class="countries-container">
+    <div id="countries-grid" class="countries-grid">
+      <!-- Countries will be loaded here by JavaScript -->
+      <div class="loading">Loading countries...</div>
+    </div>
   </main>
 
-  <div id="message" class="message hidden"></div>
+  <footer>
+    <p class="footer-text">Click on your country to visit the regional site</p>
+  </footer>
 
-  <script src="app.js"></script>
+  <script src="countries.js"></script>
 </body>
 </html>

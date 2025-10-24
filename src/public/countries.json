@@ -1,0 +1,74 @@
+[
+  {
+    "id": "usa",
+    "name": "United States",
+    "flag": "images/flags/usa.png",
+    "redirectUrl": "https://example.com/us"
+  },
+  {
+    "id": "uk",
+    "name": "United Kingdom",
+    "flag": "images/flags/uk.png",
+    "redirectUrl": "https://example.com/uk"
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "flag": "images/flags/canada.png",
+    "redirectUrl": "https://example.com/ca"
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "flag": "images/flags/germany.png",
+    "redirectUrl": "https://example.com/de"
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "flag": "images/flags/france.png",
+    "redirectUrl": "https://example.com/fr"
+  },
+  {
+    "id": "spain",
+    "name": "Spain",
+    "flag": "images/flags/spain.png",
+    "redirectUrl": "https://example.com/es"
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "flag": "images/flags/italy.png",
+    "redirectUrl": "https://example.com/it"
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "flag": "images/flags/japan.png",
+    "redirectUrl": "https://example.com/jp"
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "flag": "images/flags/australia.png",
+    "redirectUrl": "https://example.com/au"
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "flag": "images/flags/brazil.png",
+    "redirectUrl": "https://example.com/br"
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "flag": "images/flags/india.png",
+    "redirectUrl": "https://example.com/in"
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "flag": "images/flags/china.png",
+    "redirectUrl": "https://example.com/cn"
+  }
+]
