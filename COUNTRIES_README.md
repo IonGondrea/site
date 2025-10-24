@@ -67,7 +67,7 @@ Example:
 {
   "id": "mexico",
   "name": "Mexico",
-  "flag": "images/flags/mexico.png",
+  "flag": "[images/flags/mexico.png](https://th.bing.com/th/id/R.0737629c397c86c1bb392066a06ba31a?rik=KGu3D5DE%2fWhhjw&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f1%2f17%2fFlag_of_Mexico.png&ehk=MAXespfiLeO3ZBPldQ3%2fNDkCjzGo7hljFBd3yKgqLTY%3d&risl=&pid=ImgRaw&r=0)",
   "redirectUrl": "https://example.com/mx"
 }
 ```
