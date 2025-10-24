@@ -24,6 +24,20 @@ public class Server {
         String publicDir = System.getProperty("user.dir") + "/src/public";
         staticFiles.externalLocation(publicDir); // serve static files from project folder
 
+        // API: list countries (from countries.json)
+        get("/api/countries", (req, res) -> {
+            res.type("application/json");
+            try {
+                String countriesPath = System.getProperty("user.dir") + "/src/public/countries.json";
+                java.nio.file.Path path = java.nio.file.Paths.get(countriesPath);
+                String content = new String(java.nio.file.Files.readAllBytes(path));
+                return content;
+            } catch (Exception e) {
+                res.status(500);
+                return gson.toJson(Map.of("error", "Failed to load countries: " + e.getMessage()));
+            }
+        });
+
         // API: list products
         get("/api/products", (req, res) -> {
             res.type("application/json");
